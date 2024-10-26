@@ -1,5 +1,8 @@
 # EduMeet: Revolutionizing Virtual Meetings Globally
 
+### Live Website Here: 
+[![portfolio](https://img.shields.io/badge/Visitenow-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://edumeet.netlify.app)
+
 ## Overview
 
 EduMeet is a dynamic virtual meeting platform, developed to optimize both user experience and functionality for businesses, educational institutions, and individuals. Built to deliver robust and data-driven functionality, EduMeet offers seamless collaboration and meeting management without the cost associated with traditional platforms. Key features include engagement tracking, scheduling tools, a centralized dashboard, and advanced analytics—all designed to meet the demands of global users.
