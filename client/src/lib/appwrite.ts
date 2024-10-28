@@ -9,17 +9,9 @@ client
 
 // Initialize the Database service
 const database = new Databases(client);
+const account = new Account(client);
+const storage = new Storage(client);
 
-// Function to store data in a collection
-async function storeData(collectionId: string, data: { [key: string]: any }) {
-  try {
-    const response = await database.createDocument('your-database-id', collectionId, 'unique()', data);
-    console.log('Document created successfully:', response);
-    return response;
-  } catch (error) {
-    console.error('Error creating document:', error);
-  }
-}
+export { client, account, storage };
 
 
-storeData('your-collection-id', newPost);
